@@ -1,0 +1,106 @@
+body {
+  max-width: 1024px;
+  margin: 0 auto;
+  background-color: rgb(119, 239, 153);
+}
+
+#game-board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: white;
+  border: 20px double purple;
+}
+
+.game-text {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 2.5rem;
+  padding-top: 2rem;
+}
+
+#buttons-div {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  background-color: rgb(219, 85, 174);
+  text-align: center;
+  font-size: 4rem;
+  padding: 1.5rem;
+}
+
+#rockBtn {
+  background-color: #ff4d4d;
+}
+
+#paperBtn {
+  background-color: lightskyblue;
+}
+
+#scissorsBtn {
+  background-color: yellow;
+}
+
+button:hover {
+  background-color: rgb(73, 10, 73);
+}
+
+span {
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+#score {
+  text-align: center;
+  border: 3px solid white;
+  background-color: rgb(250, 218, 223);
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.result-div {
+  display: flex;
+  justify-content: center;
+}
+#result_display {
+  background-color: white;
+  width: 55%;
+  padding: 10rem;
+}
+
+#result {
+  text-align: center;
+  font-size: 4.5rem;
+}
+
+#user {
+  display: inline;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+#computer {
+  display: inline;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+#resetBtn {
+  background-color: rgb(231, 104, 203);
+}
+
+.reset-div {
+  display: flex;
+  justify-content: center;
+}
